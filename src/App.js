@@ -3,6 +3,7 @@ import { ImageContent } from "./components/ImageContent";
 import { TechStack } from "./components/TechStack";
 
 function App() {
+
   return (
     <div>
       <nav>
@@ -10,8 +11,11 @@ function App() {
       </nav>
 
       <main className="pt-20">
-        <ImageContent />
+
         <TechStack />
+
+        <ImageContent />
+
       </main>
     </div>
   );
