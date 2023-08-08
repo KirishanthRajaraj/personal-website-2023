@@ -26,13 +26,13 @@ const Navigation = () => {
             <div className="container h-full flex justify-between items-center w-full mx-auto">
 
                 <div className="image-wrapper h-full relative">
-                    <img className='h-full p-4' src={logo} alt="" />
+                    <img className='h-full py-4 px-4 md:px-6' src={logo} alt="" />
                 </div>
 
 
                 <ul className='md:flex hidden'>
                     {links.map((link) => (
-                        <li className='px-4 cursor-pointer capitalize font-medium hover:text-gray-300 duration-150'><a>{link.link}</a></li>
+                        <li className='py-4 px-4 md:px-6 cursor-pointer capitalize font-medium hover:text-gray-300 duration-150'><a>{link.link}</a></li>
                     ))}
                 </ul>
 

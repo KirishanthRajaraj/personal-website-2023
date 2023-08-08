@@ -32,7 +32,7 @@ export const TechStack = () => {
                         <div className={'opacity-0 transition-all group-hover:opacity-100 font-black duration-300 absolute text-xl top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none'}>
                                 {icon.name}
                         </div>
-                        <img className="logo-img w-20 group-hover:scale-125 duration-200 group-hover:brightness-50" src={icon.icon} alt="" />
+                        <img className="logo-img w-20 group-hover:scale-110 duration-200 group-hover:brightness-75" src={icon.icon} alt="" />
                     </div>
                     ))}
 
